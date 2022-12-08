@@ -5,6 +5,7 @@ from diaries.k19041Diary import k19041Diary
 from diaries.K21016Diary import K21016Diary
 from diaries.K21095Diary import K21095Diary
 from diaries.YamadaDiary import YamadaDiary
+from diaries.k21132_yatch import k21132_yatch
 
 # ↓のリストには、メンバーの各⽇記が格納されます。
 diaries = [
@@ -14,7 +15,8 @@ diaries = [
     K21016Diary(),
     K21095Diary(),
     YamadaDiary(),
-    k21026iDiary()
+    k21026iDiary(),
+    k21132_yatch()
 ]
 
 for d in diaries:
