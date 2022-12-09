@@ -16,7 +16,7 @@ diaries = [
     K21095Diary(),
     YamadaDiary(),
     k21026iDiary(),
-    k21132_yatch()
+    k21132_yatch(),
 ]
 
 for d in diaries:
